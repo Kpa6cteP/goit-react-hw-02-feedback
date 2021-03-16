@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react'
 import PropTypes from 'prop-types'
 
-
-function Notification({ message }) {
-  return <h2>{message}</h2>;
+const Notification = ({ message }) => {
+  return (
+    <h2>{message}</h2>
+  )
 }
 
 Notification.propTypes = {
